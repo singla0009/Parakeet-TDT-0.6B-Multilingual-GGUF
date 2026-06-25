@@ -2,13 +2,17 @@
 
 Welcome to the GitHub homepage for the **GGUF** version of NVIDIA's flagship **parakeet-tdt-0.6b-v3** multilingual Automatic Speech Recognition (ASR) model.
 
-🚀 **[DOWNLOAD THE 2.3GB MODEL FROM HUGGING FACE HERE](https://huggingface.co/Singla0009/Parakeet-TDT-0.6B-Multilingual-GGUF)** 🚀
+**[Download the 2.3GB GGUF Model from Hugging Face](https://huggingface.co/Singla0009/Parakeet-TDT-0.6B-Multilingual-GGUF)**
 
 ---
 
-⚡ **Powered by CAPIT** ⚡  
-These highly-optimized `.gguf` models were explicitly designed and converted to be used seamlessly with **CAPIT**, our blazing-fast, privacy-first desktop transcription application. CAPIT is a state-of-the-art Rust & Tauri native app built by our team that lets you run these massive AI models entirely offline on your local machine with an incredible user interface.  
-👉 **[Check out the CAPIT App on our GitHub!](https://github.com/singla0009)**
+### 💻 Integrates perfectly with CAPIT
+This model was explicitly converted and optimized to be run inside **CAPIT**—our custom desktop transcription software. 
+
+**What is CAPIT?**
+CAPIT is a fully offline, high-speed transcription application. It is built using Rust and Tauri, meaning it is incredibly lightweight, fast, and 100% private (no audio is ever sent to the cloud). Instead of writing python code or using terminal commands, you can simply load this model into the CAPIT desktop app and transcribe audio instantly with a beautiful user interface.
+
+**[Check out the CAPIT Desktop App Here!](https://github.com/singla0009)**
 
 ---
 This model was converted directly from the official NeMo PyTorch checkpoints and is designed to be run locally with zero Python dependencies using the lightweight C++ C-API (`parakeet.cpp`) and the `ggml` execution engine.
